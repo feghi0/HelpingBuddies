@@ -1,0 +1,167 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #1a3d7c;
+      color: white;
+      padding: 15px;
+    }
+
+    .login-box {
+      background: white;
+      max-width: 350px;
+      margin: 100px auto;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #ffcc33;
+      border: none;
+      padding: 10px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #ffd84d;
+    }
+
+    .tabla {
+      display: none;
+      max-width: 950px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .resumen {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 25px;
+    }
+
+    .contador {
+      background-color: #1a3d7c;
+      color: white;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+      font-weight: bold;
+      min-width: 120px;
+    }
+
+    .contador span {
+      display: block;
+      font-size: 1.6rem;
+      margin-top: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #1a3d7c;
+      color: white;
+    }
+
+    td button {
+      border: none;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      padding: 5px 8px;
+      margin: 2px;
+      transition: 0.2s;
+    }
+
+    .btn-eliminar {
+      background-color: #ff4d4d;
+      color: white;
+    }
+
+    .btn-eliminar:hover {
+      background-color: #d93636;
+    }
+
+    .btn-tomar {
+      background-color: #5cd65c;
+      color: white;
+    }
+
+    .btn-tomar:hover {
+      background-color: #47b247;
+    }
+
+    .btn-finalizar {
+      background-color: #3399ff;
+      color: white;
+    }
+
+    .btn-finalizar:hover {
+      background-color: #1f7ad4;
+    }
+
+    .estado {
+      font-weight: bold;
+      color: #1a3d7c;
+    }
+
+    .en-proceso {
+      background-color: #c2f0c2;
+      color: #006400;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 4px 8px;
+    }
+
+    .finalizado {
+      background-color: #d9d9d9;
+      color: #555;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 4px 8px;
+    }
+
+    .logout {
+      display: none;
+      background-color: #1a3d7c;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 8px 18px;
+      cursor: pointer;
+      margin-bottom: 15px;
+    }
+
+    .logout:hover {
+      background-color: #2e4fa8;
+    }

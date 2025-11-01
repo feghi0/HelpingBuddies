@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Animales | Helping Buddies</title>
+  <link rel="stylesheet" href="catalogo.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Animales</h1>
+    <a href="index.html" class="back-btn">Regresar</a>
+  </header>
+
+  <main>
+    <div class="catalogo-container" id="catalogo"></div>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="pedidoModal">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <div class="modal-content">
+      <h2>Solicitar Animal</h2>
+      <p id="animalSeleccionado"></p>
+      <input type="text" id="nombre" placeholder="Tu nombre" required>
+      <input type="email" id="email" placeholder="Tu correo electrónico" required>
+      <textarea id="mensaje" placeholder="Mensaje adicional (opcional)"></textarea>
+      <button id="enviarPedido">Enviar Pedido</button>
+      <p id="confirmacion" style="color:green; font-weight:bold; margin-top:10px;"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Helping Buddies | Help 2 Every1 - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="catalogo.js"></script>
+</body>
+</html>

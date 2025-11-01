@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Buddies | Help 2 Every1</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <div class="logo-container">
+      <!-- <a href="index.html"><img src="Logo helping buddies.png" alt="Logo Helping Buddies" class="logo" id="logoMenu"></a> -->
+       <img src="Logo helping buddies.png" alt="Logo Helping Buddies" class="logo" id="logoMenu">
+      <div class="dropdown" id="adminDropdown">
+        <a href="admin.html">Admin</a>
+      </div>
+    </div>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#quienes">Quiénes Somos</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <section id="inicio" class="intro">
+    <div class="intro-content">
+      <div class="intro-text">
+        <h1>Conectamos personas con animales que cambian vidas</h1>
+        <p>Helping Buddies es una iniciativa de Help 2 Every1 que promueve la inclusión y la asistencia emocional a través del vínculo humano-animal.</p>
+        <a href="catalogo.html" class="catalogo-btn">Ver Catálogo</a>
+      </div>
+      <div class="intro-img">
+        <img src="https://pbs.twimg.com/media/Fbk2uiBVQAIcGLQ.jpg" alt="Persona con perro" />
+      </div>
+    </div>
+  </section>
+
+  <section id="quienes" class="section">
+    <h1>¿Quiénes Somos?</h1><br>
+    <p>Somos un grupo comprometido con la integración social de personas con discapacidades, ofreciendo conexión con animales de asistencia y programas de acompañamiento terapéutico. Nuestra misión es generar bienestar y autonomía, fortaleciendo el vínculo con animales entrenados y voluntarios calificados.</p>
+    <div class="valores">
+      <div>
+        <ion-icon name="trending-up-outline" class="iconos"></ion-icon><br><br>
+        <h3>Misión</h3><br>
+        <p>Favorecer la inclusión y mejorar la calidad de vida mediante la compañía y asistencia de animales entrenados.</p>
+      </div>
+      <div>
+        <ion-icon name="paw-outline" class="iconos"></ion-icon><br><br>
+        <h3>Visión</h3><br>
+        <p>Ser una red referente en asistencia animal inclusiva, reconocida por su impacto humano y social.</p>
+      </div>
+      <div>
+        <ion-icon name="checkmark-circle-outline" class="iconos"></ion-icon><br><br>
+        <h3>Valores</h3><br>
+        <ul>
+          <li>- Empatía</li>
+          <li>- Respeto</li>
+          <li>- Compromiso social</li>
+          <li>- Inclusión</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section">
+    <h1>Nuestros Servicios</h1><br>
+    <div class="servicios-grid">
+      <div class="card">
+        <h3>Adopción de Animales de Asistencia</h3><br>
+        <p>Te ayudamos a encontrar el compañero ideal según tus necesidades físicas o emocionales.</p>
+      </div>
+      <div class="card">
+        <h3>Programas Terapéuticos</h3><br>
+        <p>Actividades asistidas con animales para fortalecer la confianza, la comunicación y el bienestar personal.</p>
+      </div>
+      <div class="card">
+        <h3>Capacitación y Voluntariado</h3><br>
+        <p>Formación para cuidadores, adiestradores y voluntarios que desean colaborar en nuestra misión.</p>
+      </div>
+    </div>
+    <a href="catalogo.html" class="catalogo-btn">Ver Catálogo</a>
+  </section>
+
+  <section id="contacto" class="section contacto">
+    <h1>Contacto</h1><br>
+    <p>¿Querés sumarte, adoptar o conocer más sobre Helping Buddies? Escribinos:</p><br>
+    <form id="contactForm">
+      <label for="nombre"><b>Nombre:</b></label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email"><b>Correo electrónico:</b></label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje"><b>Mensaje:</b></label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+      <p id="formMsg" class="msg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Helping Buddies | Help 2 Every1 - Todos los derechos reservados</p>
+  </footer>
+
+  <script type = "module" src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+  <script nomodule src ="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

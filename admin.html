@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel de Administración | Helping Buddies</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header>
+    <h1>Panel de Administración</h1>
+  </header>
+
+  <main>
+    <!-- LOGIN -->
+    <div class="login-box" id="loginBox">
+      <h2>Iniciar Sesión</h2>
+      <input type="text" id="user" placeholder="Usuario">
+      <input type="password" id="pass" placeholder="Contraseña">
+      <button id="loginBtn">Ingresar</button>
+      <p id="loginMsg" style="color:red;"></p>
+    </div>
+
+    <!-- TABLA -->
+    <div class="tabla" id="tablaPedidos">
+      <button class="logout" id="logoutBtn">Cerrar sesión</button>
+
+      <!-- CONTADORES -->
+      <div class="resumen">
+        <div class="contador">📨 Totales<span id="countTotal">0</span></div>
+        <div class="contador">⚙️ En proceso<span id="countProceso">0</span></div>
+        <div class="contador">🏁 Finalizados<span id="countFinal">0</span></div>
+      </div>
+
+      <h2>Pedidos Recibidos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Animal</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tablaBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>
