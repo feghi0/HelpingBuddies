@@ -1,5 +1,3 @@
-// === Helping Buddies - Interactividad con animación ===
-
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contactForm');
   const msg = document.getElementById('formMsg');
